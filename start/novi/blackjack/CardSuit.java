@@ -12,6 +12,10 @@ public class CardSuit {
         this.color = color;
     }
 
+    public static CardSuit[] suits() {
+        return suits;
+    }
+
     public String getName() {
         return name;
     }
@@ -24,7 +28,7 @@ public class CardSuit {
         return color;
     }
 
-    CardSuit[] suits = new CardSuit[] {
+    public static CardSuit[] suits = new CardSuit[] {
             new CardSuit("diamonds",'\u2666', "red"),
             new CardSuit("clubs",'\u2663', "black"),
             new CardSuit("hearts",'\u2665', "red"),

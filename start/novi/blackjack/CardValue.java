@@ -10,6 +10,10 @@ public class CardValue {
         this.value = value;
     }
 
+    public static CardValue[] values() {
+        return values;
+    }
+
     public String getName() {
         return name;
     }
@@ -18,7 +22,7 @@ public class CardValue {
         return value;
     }
 
-    CardValue[] values = new CardValue[] {
+    static CardValue[] values = new CardValue[] {
             new CardValue("Two", 2),
             new CardValue("Three", 3),
             new CardValue("Four", 4),

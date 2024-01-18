@@ -5,7 +5,11 @@ import java.util.Scanner;
 public class BlackjackGame {
 
     private Scanner inputScanner;
-    boolean GameIsRunning = true;
+    private boolean GameIsRunning = true;
+
+    private Player player;
+    private Dealer dealer;
+    private Deck deck;
 
         public BlackjackGame(Scanner inputScanner) {
         this.inputScanner = inputScanner;

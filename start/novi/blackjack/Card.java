@@ -9,13 +9,15 @@ private CardValue value;
         this.value = value;
     }
 
-    public render() {
+    public String render() {
+        // TODO: Render the card
+        // Example: 7♠
+
+        return String.format("| %s %s |", suit.getSymbol(), value.getName());
     }
 
-    public getValue() {
+    public int getValue() {
+        return value.getValue();
     }
-
-int index = 0;
-
 
 }

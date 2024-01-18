@@ -3,6 +3,7 @@ package novi.higherlower;
 import java.util.Scanner;
 
 public class HigherLowerGame {
+
     private Scanner inputScanner;
     private boolean gameIsRunning;
 
@@ -36,3 +37,5 @@ public class HigherLowerGame {
         }
     }
 }
+
+
